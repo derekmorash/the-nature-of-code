@@ -9,7 +9,7 @@ y += int(random(3)) - 1;
 ### Simple probability
 ```java
 float num = random(1);
-    
+
 if (num < 0.4) {
   x++;
 } else if (num < 0.6) {
@@ -28,4 +28,7 @@ __Bell curve (Gaussian Distribution)__
 * distribution groups at the median
 * standard deviation (give or take x)
 * rare occassion of extremes (very high or very low, outside of standard deviation)
-* 
+
+### Perlin Noise
+
+Time along a noise function is really just space, `noise(5)` will always return the same value because we are selecting position 5 of the noise sequence.
